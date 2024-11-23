@@ -41,7 +41,7 @@ jobs:
           registryPassword: ${{ secrets.CARGAMEAPI_REGISTRY_PASSWORD }}
           containerAppName: car-game-api
           resourceGroup: workshop-rg
-          imageToBuild: noriegadocker/car-game-api:${{ github.sha }}
+          imageToBuild: noriegadocker/car-game-api:latest
           _buildArgumentsKey_: |
             _buildArgumentsValues_
 
